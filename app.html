@@ -4,9 +4,28 @@
     <meta charset="utf-8">
     <title>ピンポンゲーム</title>
     <link rel="stylesheet" href="./app.css">
+
+    <style media="screen">
+        body {
+          align-content: center;
+          align-items: center;
+          background: #202020;
+          display: flex;
+          margin: 0;
+        }
+
+        canvas {
+          border: solid 1px #fff;
+          border-left: none;
+          border-right: none;
+          image-rendering: pixelated;
+          height: 100%;
+          margin: 0 auto;
+        }
+      </style>
   </head>
   <body>
-
+    <canvas id="pong" width="800" height="600"/>
   </body>
   <script type="text/javascript" src="./app.js"></script>
 </html>
